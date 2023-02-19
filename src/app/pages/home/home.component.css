@@ -1,0 +1,30 @@
+.container {
+    background-color: #F0F0F0;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 23px 65px 22px 64px;
+    border-radius: 60px;
+    background-color: #CE0033;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin: 164px 85px;
+}
+
+
+.white {
+    background-color: white;
+    width: 896px;
+    height: 354px;
+    margin-bottom: 164px;
+ 
+
+}

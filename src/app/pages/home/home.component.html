@@ -1,0 +1,21 @@
+<div class="container">
+
+        <button (click)="selectGuys()">🎰 Sélectionner une personne 🎰</button> 
+        
+
+        <!-- Affichage de la personne sélectionnée au hasard  -->
+<p *ngIf="selectGuys">La personne sélectionnée est : {{ personnesAleatoire }}</p>
+ 
+       <!-- <ng-container *ngFor="let guy of Guys">
+        <p *ngIf="Guys.status && Guys.gender === 'Homme' "><b>Tu es le gagnant !</b></p>
+        <p *ngIf="Guys.status && Guys.gender === 'Femme' "><b>Tu es la gagnante !</b></p>
+        </ng-container>   -->
+    
+            <!-- Affichage de la liste des personnes  -->
+            <ul>
+                <li *ngFor="let guy of guys">{{ guy }}</li>
+            </ul>
+
+
+            <div class="white"></div>
+</div>

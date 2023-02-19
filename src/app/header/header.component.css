@@ -1,0 +1,17 @@
+div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    background-color: #CE0033;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 51px;
+}
